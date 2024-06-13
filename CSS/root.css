@@ -1,0 +1,8 @@
+:root {
+    --orange-color: #F48E28;
+    --btn-bg: #F5DDC4;
+}
+
+.span-text {
+    color: var(--orange-color);
+}

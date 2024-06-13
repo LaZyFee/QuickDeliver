@@ -1,0 +1,117 @@
+.footer {
+    background-color: #fff;
+    padding: 40px 0;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 20px;
+}
+
+.footer-logo {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #666;
+}
+
+.footer-section ul li a:hover {
+    color: #ff8a00;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 10px;
+}
+
+.fa-brands {
+    color: var(--orange-color);
+}
+
+.contact-form form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.contact-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    width: 200px;
+    outline: none;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff8a00;
+    color: white;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ff9c33;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        margin-top: 20%;
+        margin-bottom: 10%;
+        margin-left: 10%;
+        background-color: #fff;
+        box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        padding: 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin: 20px 0;
+    }
+
+    .contact-form form {
+        flex-direction: column;
+    }
+
+    .contact-form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contact-form button {
+        border-radius: 20px;
+    }
+
+    .footer-socials {
+        justify-content: center;
+    }
+
+}
